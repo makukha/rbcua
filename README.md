@@ -1,6 +1,6 @@
 # rbc.ua
 
-> This python utility is made for educational purpose on scraping.
+> This python scraping utility is for educational purpose only.
 
 
 ## Installation
@@ -9,7 +9,7 @@
 
 2. Create dev environment:
 ```shell
-$ pyenv install --skip-existing $(pyenv local)`
+$ pyenv install --skip-existing `$(pyenv local)`
 $ python -m venv .venv
 $ .venv/bin/pip install -r requirements.txt
 ```
