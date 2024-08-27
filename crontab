@@ -1,0 +1,1 @@
+* * * * * /app/.venv/bin/python /app/rbcua.py "tmp/data.csv"

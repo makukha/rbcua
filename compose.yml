@@ -1,0 +1,10 @@
+services:
+
+  scraper:
+    build: .
+    hostname: scraper
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./tmp:/app/tmp
+      - ./rbcua.py:/app/rbcua.py
